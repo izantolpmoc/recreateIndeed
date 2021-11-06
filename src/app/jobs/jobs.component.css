@@ -1,0 +1,54 @@
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: whitesmoke;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(16, 0, 24);
+}
+
+.conteneur{
+    padding-top: 50px;
+    background-size: cover;
+    background-image: url('https://jooinn.com/images/colored-smoke-4.jpg');
+    background-repeat: no-repeat;
+}
+
+#offers{
+    padding-left: 100px;
+    height: 76vh;
+    overflow-y: scroll;
+}
+
+#offers a{
+    text-decoration: none;
+    color: white;
+    background-color: rgba(25, 4, 27, 0.808);
+    padding: 7px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+#offers div{
+    padding-bottom: 20px;
+}
+
+.col-sm-8{
+    padding-left: 60px;
+    height: 76vh;
+    overflow-y: scroll;
+    backdrop-filter: blur(2px);
+    color: whitesmoke;
+}
+
+.col-sm-8 p{
+    width: 70%;
+}
+
+#if{
+    color: whitesmoke;
+}
+

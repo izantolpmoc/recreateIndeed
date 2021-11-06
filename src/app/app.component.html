@@ -1,0 +1,21 @@
+<!-- Consigne
+Créer une nouvelle application ng new jobsApp
+Ajouter la navigation
+Installer bootstrap
+Ajouter 2 composants : nav et jobs
+Dans nav ajouter deux liens : accueil et jobs
+Accueil renvoie vers localhost:4200
+Jobs renvoie vers le composant jobs
+(localhost:4200/jobs)
+Dans jobs: créer un tableau de 3 objets. 
+Afficher le tableau dans le composant jobs
+Au clic sur un élément de la liste, tout le détail de l’objet s’affiche
+
+-->
+
+<nav>
+  <a routerLink='/'>🏚</a>
+  <a routerLink='/jobs'>Jobs</a>
+</nav>
+
+<router-outlet></router-outlet>

@@ -1,0 +1,29 @@
+
+
+<div class="conteneur row">
+
+<div id="offers" class="col-sm-4">
+<div *ngFor="let i of jobs">
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title">{{i.title}}</h5>
+            <h6 class="card-subtitle mb-2 text-muted">{{i.company}}</h6>
+            <p class="card-text">{{i.description}}</p>
+            <a  class="card-link" (click)="detailOffre(i)">See offer</a>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class=" col-sm-8">
+    <div id="if" *ngIf="!objetDetail?.title">
+        <h1>Select an offer.</h1>
+    </div>
+    <h1>{{objetDetail?.title}}</h1>
+    <h3>{{objetDetail?.company}}</h3>
+    <br><br>
+    <p>{{objetDetail?.description}}</p>
+    <br>
+    <p>{{objetDetail?.longDescription}}</p>
+</div>
+</div>
