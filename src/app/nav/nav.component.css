@@ -7,14 +7,19 @@ h1, h3{
     height: 80vh;
     position: relative;
     z-index: 16;
-    left: 33%;
 }
 
 #title{
-    padding-top: 20%;
-    position: absolute;
-    transform: translate(-0%, -30%);
-    
+    color: #f9fafb;
+    padding-top: 8em;    
+}
+
+#title a {
+    display: block;
+    margin: 50px auto;
+    background-color: #160418;
+    color: #f9fafb;
+    max-width: fit-content;
 }
 
 #background{
@@ -95,15 +100,12 @@ h1, h3{
 
 @media only screen and (max-width: 600px){
 
-    #title{
+    /* #title{
         padding-top: 50%;
-        position: absolute;
-        transform: translate(-25%, -40%);
-        
     }
 
     .conteneur{
         height: 100vh;
-    }
+    } */
 
 }
